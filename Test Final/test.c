@@ -15,10 +15,10 @@ void main()
         printf("Do you want to Enter Employee Information(y/n): ");
         scanf(" %c", &c);
         c == 'y' ? employee_info() : output();
-    }
+    }// end while loop
     while (c != ' ')
-        c = getch();
-}
+        c = getch();// end while loop
+} // end funtion main
 
 void employee_info()
 {
@@ -31,14 +31,14 @@ void employee_info()
     salary >= most_salary ? check_most(year) : 0;
     avg += salary;
     count++;
-}
+} // end funtion employee_info
 
 void check_most(int x)
 {
     strcpy(most_name, name);
     most_salary = salary;
     most_year = x;
-}
+} // end funtion check_most
 
 void output()
 {
@@ -49,4 +49,4 @@ void output()
     printf("\nSalary: %.2f Bath", count == 0 ? 0 : (float)most_salary);
     printf("\n\nGood Bye");
     printf("\nPress space bar to continue...\n");
-}
+} // end funtion output
