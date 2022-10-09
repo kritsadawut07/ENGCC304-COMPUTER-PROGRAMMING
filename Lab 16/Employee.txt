@@ -1,0 +1,11 @@
+No	Name	Age	Salary(Bath)	Job
+1	Kim	25	31250		Advisor
+2	Pong	32	45000		Programmer
+3	Som	25	23000		Support
+4	Aoy	24	33250		Advisor
+5	Ying	26	34550		Programmer
+6	DJ	29	21150		HR
+7	Yot	28	50000		Founder
+8	Pot	31	24500		HR
+9	Vip	25	25450		Programmer
+10	A	21	22250		Support
